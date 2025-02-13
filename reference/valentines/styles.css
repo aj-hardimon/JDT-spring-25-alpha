@@ -15,7 +15,7 @@ body {
     justify-content: center;
 }
 h1{
-    color: red;
+    color: rgb(231, 0, 0);
     font-size: 3rem;
     font-family: "Emilys Candy", serif;
     font-weight: 400;
@@ -24,6 +24,12 @@ h1{
 p{
     font-size: 1.2rem;
 }
+
+span {
+    font-weight: bold;
+    color: #cc3d39
+}
+
 .card {
     width: 340px;
     background-color: white;
@@ -33,7 +39,7 @@ p{
 
 }
 
-img {
+.card img {
     height: 300px;
     width: 100%;
 }
@@ -53,12 +59,23 @@ button {
 
 
 #yes {
-    background-color: lightgreen;
+    background-color: rgb(144, 238, 144);
+}
+
+#yes:hover{
+    background-color: rgb(122, 235, 122);
+    width: 160px;
 }
 
 #no {
-    background-color: lightcoral;
+    background-color: rgb(240, 128, 128);
 }
+
+#no:hover{
+    background-color: rgb(214, 113, 113);
+    width: 140px;
+}
+
 
 .button-wrapper{
     display: flex;
