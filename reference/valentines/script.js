@@ -36,9 +36,9 @@ yesButton.addEventListener('click', () => {
    document.getElementById("joe").src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fedition.cnn.com%2Finteractive%2F2021%2F03%2Fpolitics%2Fjoe-biden-photographer-cnnphotos%2Fmedia%2Fimages%2Fs_1F98DEEDD71BDC49CDBE7E13CBC026DB8607F5BCF17FD9345F8B0FFC6A5B362C_1614886075662_EdUhG4NXgAEalI.jpg&f=1&nofb=1&ipt=11ae28c80130ab174fd9219b238a19f6424777e6520f28e4effd1fffd5394ece&ipo=images";
    yesButton.textContent = "Yay!!!!";
    noButton.style.display = "none";
-   yesButton.style.transform = "scale(1.6)";
    document.getElementById("beg").innerText = "Thank you!"
    document.getElementById("from").innerText = ""
+   yesButton.classList.add("shake");
 });
 
 noButton.addEventListener("click", () => {
